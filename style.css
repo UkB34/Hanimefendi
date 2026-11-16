@@ -54,7 +54,7 @@ button {
 
 #yesButton {
     background-color: rgb(83, 14, 63);
-    color: rgb(0, 0, 0)e;
+    color: white;
 }
 
 
@@ -67,7 +67,7 @@ button {
 
 #noButton {
     background-color: rgb(83, 14, 63);
-    color: rgb(0, 0, 0)e;
+    color: white;
 }
 
 #noButton:hover {
