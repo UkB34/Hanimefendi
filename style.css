@@ -73,3 +73,22 @@ button {
 #noButton:hover {
     background-color: rgb(26, 0, 19);
 }
+
+/* Telefon ve tablet uyumu */
+button {
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
+@media (max-width: 600px) {
+    .image-container img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .overlay {
+        font-size: 24px;
+        width: 90vw;
+    }
+}
